@@ -5,10 +5,6 @@ import Services from "./components/pages/Services";
 
 class App extends Component {
   render() {
-    var pessoa = {
-      nome: "charles",
-      idade: 29
-    }
 
     return (
       <div>
