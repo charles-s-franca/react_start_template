@@ -24,7 +24,7 @@ class About extends Component {
                             <ul className="timeline">
                                 <li>
                                     <div className="timeline-image">
-                                        <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt="" />
+                                        <img className="rounded-circle img-fluid" src="template/img/about/1.jpg" alt="" />
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
@@ -38,7 +38,7 @@ class About extends Component {
                                 </li>
                                 <li className="timeline-inverted">
                                     <div className="timeline-image">
-                                        <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt="" />
+                                        <img className="rounded-circle img-fluid" src="template/img/about/2.jpg" alt="" />
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
@@ -52,7 +52,7 @@ class About extends Component {
                                 </li>
                                 <li>
                                     <div className="timeline-image">
-                                        <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt="" />
+                                        <img className="rounded-circle img-fluid" src="template/img/about/3.jpg" alt="" />
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
@@ -66,7 +66,7 @@ class About extends Component {
                                 </li>
                                 <li className="timeline-inverted">
                                     <div className="timeline-image">
-                                        <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt="" />
+                                        <img className="rounded-circle img-fluid" src="template/img/about/4.jpg" alt="" />
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">

@@ -22,7 +22,7 @@ class Team extends Component {
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
+                                <img className="mx-auto rounded-circle" src="template/img/team/1.jpg" alt="" />
                                 <h4>Kay Garland</h4>
                                 <p className="text-muted">Lead Designer</p>
                                 <ul className="list-inline social-buttons">
@@ -46,7 +46,7 @@ class Team extends Component {
                         </div>
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
+                                <img className="mx-auto rounded-circle" src="template/img/team/2.jpg" alt="" />
                                 <h4>Larry Parker</h4>
                                 <p className="text-muted">Lead Marketer</p>
                                 <ul className="list-inline social-buttons">
@@ -70,7 +70,7 @@ class Team extends Component {
                         </div>
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
+                                <img className="mx-auto rounded-circle" src="template/img/team/3.jpg" alt="" />
                                 <h4>Diana Pertersen</h4>
                                 <p className="text-muted">Lead Developer</p>
                                 <ul className="list-inline social-buttons">
