@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from "axios";
 
 class Services extends Component {
     constructor(props) {
@@ -17,9 +18,31 @@ class Services extends Component {
                 {
                     nome: "Qualificação",
                     descricao: "Receba dicas de cursos, eventos, palestras entre outros conteúdos que irão alavancar sua carreira abrindo um mundo novo de possibilidades."
+                },
+                {
+                    nome: "Qualificação",
+                    descricao: "Receba dicas de cursos, eventos, palestras entre outros conteúdos que irão alavancar sua carreira abrindo um mundo novo de possibilidades."
+                },
+                {
+                    nome: "Qualificação",
+                    descricao: "Receba dicas de cursos, eventos, palestras entre outros conteúdos que irão alavancar sua carreira abrindo um mundo novo de possibilidades."
                 }
             ]
         }
+    }
+
+    componentDidMount(){
+        this.loadServicesBackend();
+    }
+
+    loadServicesBackend(){
+        axios.get("https://jsonplaceholder.typicode.com/posts")
+        .then(response => {
+            this.setState({
+                //services: data
+            })
+            console.log(response.data);
+        })
     }
 
     listServices() {
